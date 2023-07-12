@@ -1,0 +1,82 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Filename= Brown_table_01.jpg    Label= brown table
+
+Filename= Dog_01.jpg    Label= dog
+
+Filename= Dog_02.jpg    Label= dog
+
+Filename= Fox_01.jpg    Label= fox
+{'Brown_table_01.jpg': ['brown table'], 'Dog_01.jpg': ['dog'], 'Dog_02.jpg': ['dog'], 'Fox_01.jpg': ['fox']}
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:             Brown_table_01.jpg  label:                brown table
+ 2 key:                     Dog_01.jpg  label:                        dog
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:                     Fox_01.jpg  label:                        fox
+
+     MATCH:
+
+                    Fox_01.jpg: 
+Real:                        fox   Classifier:         red fox, vulpes vulpes
+
+ NOT A MATCH:
+
+            Brown_table_01.jpg: 
+Real:                brown table   Classifier:                  folding chair
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                       malinois
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:        bloodhound, sleuthhound
+
+# Total Images 4 # Matches: 1 # NOT Matches: 3
+
+     MATCH:
+
+                    Fox_01.jpg: 
+Real:                        fox   Classifier:         red fox, vulpes vulpes  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+            Brown_table_01.jpg: 
+Real:                brown table   Classifier:                  folding chair  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                       malinois  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:        bloodhound, sleuthhound  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 1 # NOT Matches: 3
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+Model Name: resnet
+Number of Images: 4
+Number of Dog Images: 2
+Number of Not-a-Dog Images: 2
+pct_match: 25.0%
+pct_correct_dogs: 100.0%
+pct_correct_breed: 0.0%
+pct_correct_notdogs: 100.0%
+
+INCORRECT Breed Classifications:
+Pet Image: Dog_01.jpg, Pet Label: dog, Classifier Label: malinois
+Pet Image: Dog_02.jpg, Pet Label: dog, Classifier Label: bloodhound, sleuthhound
+
+** Total Elapsed Runtime: 0:0:4
