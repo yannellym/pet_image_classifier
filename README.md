@@ -12,10 +12,11 @@ This image classifier has been trained on a dataset of labeled dog and cat image
 Here are the example results from the pet image classifier:
 
 #### Resnet Model
-![Screenshot 2023-07-12 at 5 11 04 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/b289dcaa-97c4-4463-91da-b9e6732e7500)
+
 
 #### VVG Model
-![Screenshot 2023-07-12 at 5 11 19 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/8a387664-a445-4000-9625-2de1242b9dcc)
+![Screenshot 2023-07-12 at 5 11 19 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/89752c0a-90a1-4786-ad5e-61197332eb66)
+
 
 #### Alexnet Model
 ![Screenshot 2023-07-12 at 5 10 47 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/7a71ff2e-ff7a-4e60-9360-75789a8127f9)
