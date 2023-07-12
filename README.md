@@ -12,6 +12,7 @@ This image classifier has been trained on a dataset of labeled dog and cat image
 Here are the example results from the pet image classifier:
 
 #### Resnet Model
+![Screenshot 2023-07-12 at 5 11 04 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/83bbf40e-c9b2-4a8a-b840-5d570c9070ba)
 
 
 #### VVG Model
@@ -19,12 +20,10 @@ Here are the example results from the pet image classifier:
 
 
 #### Alexnet Model
-![Screenshot 2023-07-12 at 5 10 47 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/7a71ff2e-ff7a-4e60-9360-75789a8127f9)
+![Screenshot 2023-07-12 at 5 10 47 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/97aed130-a49b-4ea3-adf7-9a58d8ea5abe)
 
 
-Results Table
-
-Project Results
+## Results
 
 Given our results, the "best" model architecture is VGG. It outperformed both of the other architectures when considering both objectives 1 and 2. 
 ResNet did classify dog breeds better than AlexNet, but only VGG and AlexNet were able to classify "dogs" and "not-a-dog" at 100% accuracy. 
@@ -35,14 +34,15 @@ with 93.3% accuracy.
 
 The model was trained using a diverse dataset of dog images. Here is an example of a dog image used during the training:
 
-![Screenshot 2023-07-12 at 5 12 36 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/daa08e31-3a16-494a-9b86-84ad3fb1211a)
+![Screenshot 2023-07-12 at 5 12 36 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/0395d85e-e5eb-429f-b71c-a7eb7338840a)
 
 
 ### Testing the Classifier
 
 You can test the classifier by providing your own images. Here is an example of an uploaded NOT A dog image:
 
-![Screenshot 2023-07-12 at 5 12 57 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/b661e8f4-992e-4c5e-8ffc-5d120acf4e9b)
+
+![Screenshot 2023-07-12 at 5 12 57 PM](https://github.com/yannellym/pet_image_classifier/assets/91508647/a1a54679-b53b-45c7-bdc0-0c45095bd127)
 
 
 
